@@ -17,7 +17,6 @@ Given(/customer enters the registered email address in Email field/, async () =>
 });
 
 
-
 Given(/the user enters a valid password/, async () => { 
     const pwdField = await $('//*[contains(@placeholder,"Enter your Password")]');
     await pwdField.setValue('yuva1234');
