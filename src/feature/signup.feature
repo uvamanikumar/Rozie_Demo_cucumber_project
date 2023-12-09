@@ -1,5 +1,5 @@
 Feature: Ghostwriter Signup
-  @check
+ 
   Scenario: Customer tries to register with existing registered credential
     Given customer launch the https://www.ghostwriter.rozie.ai/ 
     And customer sees the login page
