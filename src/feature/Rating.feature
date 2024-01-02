@@ -1,5 +1,5 @@
 Feature: Feedback and Rating the content
-@check
+
  Scenario: The user gives feedback and rating relevant content.
             Given customer launch the https://www.ghostwriter.rozie.ai/ 
             And customer sees the login page
